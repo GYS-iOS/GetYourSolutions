@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 @property (nonatomic) int sum;
-
+@property (nonatomic, strong) TestClass *testClass;
 @end
 
 @implementation ViewController

@@ -13,6 +13,7 @@
 		579383F21E1B81D200B506F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579383F01E1B81D200B506F4 /* Main.storyboard */; };
 		579383F41E1B81D300B506F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579383F31E1B81D300B506F4 /* Assets.xcassets */; };
 		579383F71E1B81D300B506F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579383F51E1B81D300B506F4 /* LaunchScreen.storyboard */; };
+		579384231E1B907100B506F4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 579384221E1B907100B506F4 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		579383F31E1B81D300B506F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579383F61E1B81D300B506F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579383F81E1B81D300B506F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579384211E1B907100B506F4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		579384221E1B907100B506F4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		579383DB1E1B81D200B506F4 = {
 			isa = PBXGroup;
 			children = (
+				579384211E1B907100B506F4 /* TestClass.h */,
+				579384221E1B907100B506F4 /* TestClass.m */,
 				579383E61E1B81D200B506F4 /* GITDemo */,
 				579383E51E1B81D200B506F4 /* Products */,
 			);
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579384231E1B907100B506F4 /* TestClass.m in Sources */,
 				579383EF1E1B81D200B506F4 /* ViewController.m in Sources */,
 				579383EC1E1B81D200B506F4 /* AppDelegate.m in Sources */,
 				579383E91E1B81D200B506F4 /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				579383FD1E1B81D300B506F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

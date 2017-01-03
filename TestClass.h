@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  TestClass.h
 //  GITDemo
 //
 //  Created by ThaparMac on 03/01/17.
 //  Copyright © 2017 ThaparMac. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "TestClass.h"
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface TestClass : NSObject
 
 @end
-
