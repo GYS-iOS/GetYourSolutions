@@ -12,6 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 -(void)testing;
-
+-(void)testing1;
 @end
 

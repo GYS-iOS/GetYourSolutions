@@ -45,5 +45,8 @@
 -(void)testing{
     NSLog(@"Testing");
 }
+-(void)testing1{
+      NSLog(@"Testing");
+}
 
 @end
